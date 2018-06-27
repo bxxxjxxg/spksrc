@@ -1,0 +1,22 @@
+{
+    "blank-window.js": {
+        "SYNOCOMMUNITY.BlankWindow.AppInstance": {
+            "type": "app",
+            "title": "Blank Window",
+            "version": "0.1",
+            "icon": "images/package-{0}.png",
+            "texts": "texts",
+            "allowMultiInstance": false,
+            "allUsers": true,
+            "appWindow": "SYNOCOMMUNITY.BlankWindow.AppWindow",
+            "depend": ["SYNOCOMMUNITY.BlankWindow.AppWindow"]
+        },
+        "SYNOCOMMUNITY.BlankWindow.AppWindow": {
+            "type": "lib",
+            "title": "Blank Window",
+            "icon": "images/package-{0}.png",
+            "texts": "texts",
+            "depend": []
+        }
+    }
+}
